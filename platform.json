@@ -70,6 +70,7 @@
       "type_cn": "剧场版",
       "wiki_tpl": "Movie",
       "sortKeys": [
+        "上映年度",
         "上映日"
       ]
     },
