@@ -21,3 +21,4 @@ dev-env/
 /data/
 tmp/
 .task/
+node_modules/

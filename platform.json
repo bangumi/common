@@ -47,9 +47,7 @@
       "type": "TV",
       "type_cn": "TV",
       "wiki_tpl": "TVAnime",
-      "sortKeys": [
-        "放送开始"
-      ]
+      "sortKeys": ["放送开始"]
     },
     "2": {
       "alias": "ova",
@@ -58,9 +56,7 @@
       "type": "OVA",
       "type_cn": "OVA",
       "wiki_tpl": "OVA",
-      "sortKeys": [
-        "发售日期"
-      ]
+      "sortKeys": ["发售日期"]
     },
     "3": {
       "alias": "movie",
@@ -69,10 +65,7 @@
       "type": "movie",
       "type_cn": "剧场版",
       "wiki_tpl": "Movie",
-      "sortKeys": [
-        "上映年度",
-        "上映日"
-      ]
+      "sortKeys": ["上映年度", "上映日"]
     },
     "5": {
       "alias": "web",
@@ -81,9 +74,7 @@
       "type": "web",
       "type_cn": "WEB",
       "wiki_tpl": "TVAnime",
-      "sortKeys": [
-        "放送开始"
-      ]
+      "sortKeys": ["放送开始"]
     }
   },
   "3": {},

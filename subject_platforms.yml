@@ -293,19 +293,18 @@ platforms:
 
   book_series:
     *TYPE_BOOK_SERIES :
-        id: *TYPE_BOOK_SERIES
-        type: series
-        type_cn: 系列
-        alias: series
-        order: 0
+      id: *TYPE_BOOK_SERIES
+      type: series
+      type_cn: 系列
+      alias: series
+      order: 0
 
     *TYPE_BOOK_OFFPRINT :
-        id: *TYPE_BOOK_OFFPRINT
-        type: offprint
-        type_cn: 单行本
-        alias: offprint
-        order: 1
-
+      id: *TYPE_BOOK_OFFPRINT
+      type: offprint
+      type_cn: 单行本
+      alias: offprint
+      order: 1
 
   game_platforms:
     4:
