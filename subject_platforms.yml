@@ -55,6 +55,13 @@ define:
       demo: &TYPE_GAME_DEMO 4004
       table: &TYPE_GAME_TABLE 4005
 
+sort_keys:
+  *TYPE_BOOK : ["发售日"]
+  *TYPE_ANIME : ["放送开始"]
+  *TYPE_MUSIC : ["放送开始"]
+  *TYPE_GAME : ["放送开始"]
+  *TYPE_REAL : ["开始"]
+
 platforms:
   *TYPE_BOOK :
     *PLATFORM_COMIC :
@@ -128,6 +135,7 @@ platforms:
       enable_header: true
       wiki_tpl: TVAnime
       order: 0
+      sort_keys: ["放送开始"]
 
     *PLATFORM_WEB :
       id: *PLATFORM_WEB
@@ -137,6 +145,7 @@ platforms:
       enable_header: true
       wiki_tpl: TVAnime
       order: 1
+      sort_keys: ["放送开始"]
 
     *PLATFORM_OVA :
       id: *PLATFORM_OVA
@@ -146,6 +155,7 @@ platforms:
       enable_header: true
       wiki_tpl: OVA
       order: 2
+      sort_keys: ["发售日期"]
 
     *PLATFORM_MOVIE :
       id: *PLATFORM_MOVIE
@@ -155,6 +165,7 @@ platforms:
       enable_header: true
       wiki_tpl: Movie
       order: 3
+      sort_keys: ["上映年度", "上映日"]
 
     *PLATFORM_ANIME_COMIC :
       id: *PLATFORM_ANIME_COMIC
