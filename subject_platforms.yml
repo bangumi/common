@@ -59,7 +59,7 @@ sort_keys:
   *TYPE_BOOK : ["发售日"]
   *TYPE_ANIME : ["放送开始"]
   *TYPE_MUSIC : ["放送开始"]
-  *TYPE_GAME : ["放送开始"]
+  *TYPE_GAME : ["发行日期"]
   *TYPE_REAL : ["开始"]
 
 platforms:
