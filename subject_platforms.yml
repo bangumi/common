@@ -60,7 +60,7 @@ sort_keys:
   *TYPE_ANIME : ["放送开始"]
   *TYPE_MUSIC : ["放送开始"]
   *TYPE_GAME : ["发行日期"]
-  *TYPE_REAL : ["开始"]
+  *TYPE_REAL : ["上映日", "开始"]
 
 platforms:
   *TYPE_BOOK :
