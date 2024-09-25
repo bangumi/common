@@ -58,7 +58,7 @@ define:
 sort_keys:
   *TYPE_BOOK : ["发售日"]
   *TYPE_ANIME : ["放送开始"]
-  *TYPE_MUSIC : ["放送开始"]
+  *TYPE_MUSIC : ["发售日期"]
   *TYPE_GAME : ["发行日期"]
   *TYPE_REAL : ["上映日", "开始"]
 
