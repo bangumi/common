@@ -155,7 +155,7 @@ platforms:
       enable_header: true
       wiki_tpl: OVA
       order: 2
-      sort_keys: ["发售日期"]
+      sort_keys: ["发售日", "发售日期"]
 
     *PLATFORM_MOVIE :
       id: *PLATFORM_MOVIE
