@@ -3,26 +3,42 @@ from pathlib import Path
 import yaml
 import msgspec
 
+__common_path = Path(__file__, "../../").resolve()
+
 
 class Platform(msgspec.Struct):
     id: int
     type: str
     type_cn: str
+    wiki_tpl: str = ""
     sort_keys: tuple[str, ...] = ()
 
 
-subject_platforms = yaml.safe_load(
-    Path(__file__, "../../subject_platforms.yml").resolve().read_bytes()
+class PlatformDefault(msgspec.Struct):
+    wiki_tpl: str
+    sort_keys: tuple[str, ...]
+
+
+__subject_platforms = yaml.safe_load(
+    __common_path.joinpath("subject_platforms.yml").read_bytes()
 )
 
-PlatformConfig = dict[int, dict[int, Platform]]
-SortKeys = msgspec.convert(subject_platforms["sort_keys"], dict[int, tuple[str, ...]])
+WIKI_TEMPLATES: dict[str, str] = msgspec.convert(
+    yaml.safe_load(__common_path.joinpath("wiki_template.yml").read_bytes()),
+    dict[str, str],
+)
 
-PLATFORM_CONFIG: PlatformConfig = msgspec.convert(
+PLATFORM_DEFAULT: dict[int, PlatformDefault] = msgspec.convert(
+    __subject_platforms["default"],
+    type=dict[int, PlatformDefault],
+)
+
+
+PLATFORM_CONFIG: dict[int, dict[int, Platform]] = msgspec.convert(
     {
         key: value
-        for key, value in subject_platforms["platforms"].items()
+        for key, value in __subject_platforms["platforms"].items()
         if isinstance(key, int)
     },
-    type=PlatformConfig,
+    type=dict[int, dict[int, Platform]],
 )

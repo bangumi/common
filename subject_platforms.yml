@@ -55,12 +55,26 @@ define:
       demo: &TYPE_GAME_DEMO 4004
       table: &TYPE_GAME_TABLE 4005
 
-sort_keys:
-  *TYPE_BOOK : ["发售日"]
-  *TYPE_ANIME : ["放送开始"]
-  *TYPE_MUSIC : ["发售日期"]
-  *TYPE_GAME : ["发行日期"]
-  *TYPE_REAL : ["上映日", "开始"]
+default:
+  *TYPE_BOOK :
+    sort_keys: ["发售日"]
+    wiki_tpl: Book
+
+  *TYPE_ANIME :
+    sort_keys: ["放送开始"]
+    wiki_tpl: Anime
+
+  *TYPE_MUSIC :
+    sort_keys: ["发售日期"]
+    wiki_tpl: Music
+
+  *TYPE_GAME :
+    sort_keys: ["发行日期"]
+    wiki_tpl: Game
+
+  *TYPE_REAL :
+    sort_keys: ["上映日", "开始"]
+    wiki_tpl: TV
 
 platforms:
   *TYPE_BOOK :

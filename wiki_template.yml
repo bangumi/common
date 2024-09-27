@@ -215,6 +215,25 @@ TV: |
   |imdb_id=
   |tvdb_id=
   }}
+
+Music: |
+  {{Infobox Album
+  |中文名= 
+  |别名={
+  }
+  |艺术家= 
+  |作曲= 
+  |编曲= 
+  |作词= 
+  |厂牌= 
+  |发售日期= 
+  |价格= 
+  |版本特性= 
+  |播放时长= 
+  |录音= 
+  |碟片数量= 
+  }}
+
 realMovie: |
   {{Infobox real/Movie
   |中文名=
