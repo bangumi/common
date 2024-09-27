@@ -66,7 +66,7 @@ default:
 
   *TYPE_MUSIC :
     sort_keys: ["发售日期"]
-    wiki_tpl: Music
+    wiki_tpl: Album
 
   *TYPE_GAME :
     sort_keys: ["发行日期"]
