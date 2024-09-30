@@ -346,7 +346,7 @@ platforms:
       id: 39
       type: Xbox Series X/S
       alias: xbox_series_xs
-      search_string: XSX|XSS|(Xbox Series X)|(Xbox Series S)
+      search_string: XSX|XSS|Xbox Series X|Xbox Series S
       type_cn: Xbox Series X/S
       order: 3
 
@@ -362,7 +362,7 @@ platforms:
       id: 35
       type: Xbox One
       alias: xbox_one
-      search_string: (Xbox One)
+      search_string: Xbox One
       type_cn: Xbox One
       order: 5
 
@@ -370,7 +370,7 @@ platforms:
       id: 37
       type: Nintendo Switch
       alias: ns
-      search_string: (Nintendo Switch)|NS
+      search_string: Switch|NS
       type_cn: Nintendo Switch
       order: 6
 
@@ -378,7 +378,7 @@ platforms:
       id: 36
       type: Wii U
       alias: wii_u
-      search_string: (Wii U)|WiiU
+      search_string: Wii U|WiiU
       type_cn: Wii U
       order: 7
 
@@ -386,7 +386,7 @@ platforms:
       id: 8
       type: PS3
       alias: ps3
-      search_string: PS3|(PlayStation 3)
+      search_string: PS3|PlayStation 3
       type_cn: PS3
       order: 8
 
