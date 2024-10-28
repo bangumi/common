@@ -2,13 +2,23 @@ type: object
 
 properties:
   read:collection:
-    default: false
+    default: true
     description: 获取用户收藏
     type: boolean
   write:collection:
-    default: false
+    default: true
     description: 修改用户收藏
     type: boolean
+
+  read:indices:
+    default: true
+    description: 读取目录
+    type: boolean
+  write:indices:
+    default: true
+    description: 修改目录
+    type: boolean
+
   read:topic:
     default: false
     type: boolean
@@ -25,10 +35,3 @@ properties:
     description: 进行维基编辑
     type: boolean
 
-required:
-  - read:collection
-  - write:collection
-  - read:topic
-  - write:topic
-  - read:wiki
-  - write:wiki
