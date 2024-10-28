@@ -1,0 +1,34 @@
+type: object
+
+properties:
+  read:collection:
+    default: false
+    description: 获取用户收藏
+    type: boolean
+  write:collection:
+    default: false
+    description: 修改用户收藏
+    type: boolean
+  read:topic:
+    default: false
+    type: boolean
+  write:topic:
+    default: false
+    description: 发帖/回帖
+    type: boolean
+  read:wiki:
+    default: false
+    description: 获取维基数据
+    type: boolean
+  write:wiki:
+    default: false
+    description: 进行维基编辑
+    type: boolean
+
+required:
+  - read:collection
+  - write:collection
+  - read:topic
+  - write:topic
+  - read:wiki
+  - write:wiki
