@@ -1,0 +1,57 @@
+psn:
+  id: 1
+  name: PSN
+  url: 'https://www.playstation.com/en-us/my/public-trophies/?onlineId='
+  bg_color: '#004AB0'
+live:
+  id: 2
+  name: Xbox Live
+  url: 'https://account.xbox.com/en-US/Profile?gamerTag='
+  bg_color: '#107C11'
+  validate: '%^[A-Za-z0-90-9]*( )?_?\-?\.?[A-Za-z0-9]*$%i'
+fc:
+  id: 3
+  name: FriendCode
+  bg_color: '#EE1C23'
+  validate: '%^[0-9]{4}-[0-9]{4}-[0-9]{4}$%i'
+steam:
+  id: 4
+  name: Steam
+  url: 'https://steamcommunity.com/id/'
+  bg_color: '#171A21'
+battletag:
+  id: 5
+  name: BattleTag
+  bg_color: '#007CAE'
+  validate: '%^[A-Za-z][A-Za-z0-9]*#[0-9]*$%i'
+pixiv:
+  id: 6
+  name: Pixiv
+  bg_color: '#0097DC'
+  validate: '%^[0-9]*$%i'
+  url: 'https://www.pixiv.net/member.php?id='
+github:
+  id: 7
+  name: GitHub
+  bg_color: '#333'
+  url: 'https://github.com/'
+twitter:
+  id: 8
+  name: Twitter
+  bg_color: '#55ACEE'
+  url: 'https://twitter.com/'
+instagram:
+  id: 9
+  name: Instagram
+  bg_color: '#AD8466'
+  url: 'https://instagram.com/'
+flickr:
+  id: 10
+  name: Flickr
+  bg_color: '#0063DC'
+  url: 'https://www.flickr.com/photos/'
+ns:
+  id: 11
+  name: NS
+  bg_color: '#E30B20'
+  validate: '%^SW-[0-9]{4}-[0-9]{4}-[0-9]{4}$%i'
