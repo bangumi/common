@@ -7,7 +7,7 @@ define:
     real: &TYPE_REAL 6
 
   types:
-    ANIME_RELATIONS:
+    anime: &ANIME_RELATIONS
       1:
         en: 'Adaptation'
         cn: '改编'
@@ -81,7 +81,7 @@ define:
         desc: ''
         skip_vice_versa: true
 
-    BOOK_RELATIONS:
+    book: &BOOK_RELATIONS
       1003:
         en: 'Offprint'
         cn: '单行本'
@@ -155,7 +155,7 @@ define:
         desc: ''
         skip_vice_versa: true
 
-    MUSIC_RELATIONS:
+    music: &MUSIC_RELATIONS
       3001:
         en: 'OST'
         cn: '原声集'
@@ -198,7 +198,7 @@ define:
         desc: ''
         skip_vice_versa: true
 
-    GAME_RELATIONS:
+    game: &GAME_RELATIONS
       1:
         en: 'Adaptation'
         cn: '改编'
@@ -283,13 +283,8 @@ define:
         skip_vice_versa: true
 
 relations:
-  *TYPE_ANIME :
-    *ANIME_RELATIONS
-  *TYPE_BOOK :
-    *BOOK_RELATIONS
-  *TYPE_MUSIC :
-    *MUSIC_RELATIONS
-  *TYPE_GAME :
-    *GAME_RELATIONS
-  *TYPE_REAL :
-    *ANIME_RELATIONS
+  *TYPE_ANIME : *ANIME_RELATIONS
+  *TYPE_BOOK  : *BOOK_RELATIONS
+  *TYPE_MUSIC : *MUSIC_RELATIONS
+  *TYPE_GAME  : *GAME_RELATIONS
+  *TYPE_REAL : *ANIME_RELATIONS
