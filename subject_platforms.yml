@@ -55,7 +55,7 @@ define:
       demo: &TYPE_GAME_DEMO 4004
       table: &TYPE_GAME_TABLE 4005
 
-default:
+defaults:
   *TYPE_BOOK :
     sort_keys: ["发售日"]
     wiki_tpl: Book
