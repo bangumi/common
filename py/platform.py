@@ -29,7 +29,7 @@ WIKI_TEMPLATES: dict[str, str] = msgspec.convert(
 )
 
 PLATFORM_DEFAULT: dict[int, PlatformDefault] = msgspec.convert(
-    __subject_platforms["default"],
+    __subject_platforms["defaults"],
     type=dict[int, PlatformDefault],
 )
 
