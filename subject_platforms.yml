@@ -197,6 +197,7 @@ platforms:
       alias: misc
       wiki_tpl: Anime
       order: 5
+      sort_keys: ["上映年度"]
 
   *TYPE_REAL :
     *PLATFORM_REAL_JP :
