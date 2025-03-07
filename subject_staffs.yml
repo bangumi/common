@@ -33,10 +33,18 @@ define:
         en: 'Storyboard'
         cn: '分镜'
         jp: 'コンテ  ストーリーボード  画コンテ  絵コンテ'
+      89:
+        en: 'Chief Episode Direction'
+        cn: '主演出'
+        jp: 'チーフ演出'
       5:
         en: 'Episode Direction'
         cn: '演出'
         jp: ''
+      91:
+        en: 'Assistant Episode Direction'
+        cn: '演出助理'
+        jp: '演出助手 演出補佐 演出協力'
       6:
         en: 'Music'
         cn: '音乐'
