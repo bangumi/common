@@ -535,6 +535,10 @@ define:
         en: ''
         cn: '出品方'
         jp: ''
+      2013:
+        en: 'Brand'
+        cn: '图书品牌'
+        jp: 'ブランド'
 
     music: &MUSIC_STAFFS
       3001:
