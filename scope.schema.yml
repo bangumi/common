@@ -34,4 +34,3 @@ properties:
     default: false
     description: 进行维基编辑
     type: boolean
-
