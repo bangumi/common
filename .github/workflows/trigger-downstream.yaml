@@ -10,10 +10,15 @@ permissions:
 jobs:
   trigger:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        repository:
+          - bangumi/server
+          - bangumi/server-private
     steps:
       - name: Trigger repository dispatch
         uses: peter-evans/repository-dispatch@v3
         with:
           token: ${{ secrets.PAT }}
-          repository: bangumi/server
+          repository: ${{ matrix.repository }}
           event-type: ci-update-common
