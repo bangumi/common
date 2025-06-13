@@ -1,0 +1,15 @@
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger repository dispatch
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ github.token }}
+          repository: bangumi/server
+          event-type: ci-update-common
