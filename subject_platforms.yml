@@ -57,23 +57,23 @@ define:
 
 defaults:
   *TYPE_BOOK :
-    sort_keys: ["发售日"]
+    sort_keys: &BOOK_SORT_KEYS ["发售日"]
     wiki_tpl: Book
 
   *TYPE_ANIME :
-    sort_keys: ["放送开始"]
+    sort_keys: &ANIME_SORT_KEYS ["放送开始", "发售日", "发售日期", "上映年度", "上映日"]
     wiki_tpl: Anime
 
   *TYPE_MUSIC :
-    sort_keys: ["发售日期"]
+    sort_keys: &MUSIC_SORT_KEYS ["发售日期"]
     wiki_tpl: Album
 
   *TYPE_GAME :
-    sort_keys: ["发行日期"]
+    sort_keys: &GAME_SORT_KEYS ["发行日期"]
     wiki_tpl: Game
 
   *TYPE_REAL :
-    sort_keys: ["上映日", "开始"]
+    sort_keys: &REAL_SORT_KEYS ["上映日", "开始"]
     wiki_tpl: TV
 
 platforms:
@@ -149,7 +149,7 @@ platforms:
       enable_header: true
       wiki_tpl: TVAnime
       order: 0
-      sort_keys: ["放送开始"]
+      sort_keys: *ANIME_SORT_KEYS
 
     *PLATFORM_WEB :
       id: *PLATFORM_WEB
@@ -159,7 +159,7 @@ platforms:
       enable_header: true
       wiki_tpl: TVAnime
       order: 1
-      sort_keys: ["放送开始"]
+      sort_keys: *ANIME_SORT_KEYS
 
     *PLATFORM_OVA :
       id: *PLATFORM_OVA
@@ -169,7 +169,7 @@ platforms:
       enable_header: true
       wiki_tpl: OVA
       order: 2
-      sort_keys: ["发售日", "发售日期"]
+      sort_keys: *ANIME_SORT_KEYS
 
     *PLATFORM_MOVIE :
       id: *PLATFORM_MOVIE
@@ -179,7 +179,7 @@ platforms:
       enable_header: true
       wiki_tpl: Movie
       order: 3
-      sort_keys: ["上映年度", "上映日"]
+      sort_keys: *ANIME_SORT_KEYS
 
     *PLATFORM_ANIME_COMIC :
       id: *PLATFORM_ANIME_COMIC
@@ -197,7 +197,7 @@ platforms:
       alias: misc
       wiki_tpl: Anime
       order: 5
-      sort_keys: ["上映年度"]
+      sort_keys: *ANIME_SORT_KEYS
 
   *TYPE_REAL :
     *PLATFORM_REAL_JP :
