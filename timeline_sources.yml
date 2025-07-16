@@ -1,0 +1,34 @@
+sources:
+  0:
+    name: web
+    url: ""
+  1:
+    name: mobile
+    url: ""
+  2:
+    name: onAir
+    url: "https://bgm.tv/onair"
+  3:
+    name: inTouch
+    url: "https://netaba.re/"
+  4:
+    name: Windows Phone 7
+    url: "https://www.windowsphone.com/zh-CN/apps/14b39a30-7e5a-4427-88ed-fa40d7e841c1"
+  5:
+    name: API
+    url: "https://bgm.tv/group/topic/366561"
+  6:
+    name: next
+    url: "https://next.bgm.tv"
+  7:
+    name: Chobits iOS
+    url: "https://bgm.tv/group/topic/417148"
+    appID: bgm3041662232881a48c
+  8:
+    name: Animeko
+    url: "https://myani.org/"
+    appID: bgm322266a2373445da2
+  9:
+    name: Jellyfin
+    url: "https://github.com/kookxiang/jellyfin-plugin-bangumi"
+    appID: bgm16185f43c213d11c9
