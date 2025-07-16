@@ -24,11 +24,3 @@ sources:
     name: Chobits iOS
     url: "https://bgm.tv/group/topic/417148"
     appID: bgm3041662232881a48c
-  8:
-    name: Animeko
-    url: "https://myani.org/"
-    appID: bgm322266a2373445da2
-  9:
-    name: Jellyfin
-    url: "https://github.com/kookxiang/jellyfin-plugin-bangumi"
-    appID: bgm16185f43c213d11c9
