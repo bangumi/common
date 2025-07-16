@@ -1,10 +1,8 @@
 sources:
   0:
     name: web
-    url: ""
   1:
     name: mobile
-    url: ""
   2:
     name: onAir
     url: "https://bgm.tv/onair"
