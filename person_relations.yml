@@ -106,12 +106,15 @@ define:
         cn: "单恋"
         desc: ""
         skip_vice_versa: true
-      2013:
-        cn: "暧昧"
+      # 2013:
+      #   cn: "暧昧"
+      #   desc: ""
+      2022:
+        cn: "前任"
         desc: ""
-      2014:
-        cn: "离异"
-        desc: ""
+      # 2014:
+      #   cn: "离异"
+      #   desc: ""
       2099:
         cn: "其他"
         desc: ""
