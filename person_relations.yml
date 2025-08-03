@@ -112,7 +112,7 @@ define:
         cn: "同事"
         desc: ""
       2004:
-        cn: "单恋"
+        cn: "暗恋者"
         desc: ""
         skip_vice_versa: true
       # 2013:
