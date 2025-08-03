@@ -23,76 +23,97 @@ define:
       1006:
         cn: "成员"
         desc: "偶像组合或特别企划的成员"
-      1007:
-        cn: "中之人"
-        desc: "VTuber 的扮演者或声优"
+      # 1007:
+      #   cn: "中之人"
+      #   desc: "VTuber 的扮演者或声优"
       1008:
         cn: "总公司"
         desc: ""
+        vice_versa_to: 1009
       1009:
         cn: "分公司"
         desc: ""
+        vice_versa_to: 1008
       1010:
         cn: "品牌"
-        desc: ""
+        desc: "公司下属的品牌"
 
     character: &CHARACTER_RELATIONS
       2001:
         cn: "形态"
         desc: "不同的外观形态（如幼年，成年），所有外貌应关联至同一个主条目，角色名后可标注形态类型"
-      2003:
-        cn: "恋人"
-        desc: ""
-      2017:
-        cn: "配偶"
+      2020:
+        cn: "原型"
+        desc: "角色的原型或灵感来源，如历史人物、神话传说等"
+        vice_versa_to: 2021
+      2021:
+        cn: "改编"
+        desc: "角色的改编版本，如影视作品中的角色"
+        vice_versa_to: 2020
+      2002:
+        cn: "朋友"
         desc: ""
       2006:
         cn: "家人"
         desc: "有血缘关系的家人，如父母、兄弟姐妹等"
-      2002:
-        cn: "朋友"
+      2003:
+        cn: "恋人"
+        desc: "双方都已确认恋爱关系"
+      2017:
+        cn: "配偶"
         desc: ""
       2005:
         cn: "对手"
         desc: ""
       2008:
         cn: "创始人"
-        desc: ""
+        desc: "组织、偶像组合等团体的创始人"
       2007:
         cn: "成员"
-        desc: "偶像组合或特别企划的成员"
+        desc: "组织、偶像组合等团体的成员"
       2015:
         cn: "驾驶员"
         desc: "机体的驾驶员，如高达系列、EVA 系列等"
       2009:
         cn: "主人"
-        desc: "宠物的主人，如宝可梦、数码宝贝等"
+        desc: "宠物/侍从的主人"
+        skip_vice_versa: true
       2010:
         cn: "宠物"
         desc: "被主人所驯养的动物，如宝可梦、数码宝贝等"
+        vice_versa_to: 2009
       2016:
-        cn: "随从"
-        desc: "人类角色的随从，如骑士、侍从等"
+        cn: "侍从"
+        desc: "主人的侍从，如女仆、管家等"
+        vice_versa_to: 2009
       2011:
         cn: "老师"
         desc: ""
+        vice_versa_to: 2012
       2012:
         cn: "学生"
         desc: ""
+        vice_versa_to: 2011
       2018:
         cn: "上司"
         desc: ""
+        vice_versa_to: 2019
       2019:
         cn: "下属"
         desc: ""
+        vice_versa_to: 2018
       2004:
         cn: "单恋"
         desc: ""
+        skip_vice_versa: true
       2013:
         cn: "暧昧"
         desc: ""
       2014:
         cn: "离异"
+        desc: ""
+      2099:
+        cn: "其他"
         desc: ""
 
 relations:
