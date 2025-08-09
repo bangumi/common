@@ -49,13 +49,22 @@ define:
         cn: "分公司"
         desc: ""
         vice_versa_to: 1009
-
       1010:
         cn: "品牌"
         desc: "公司下属的品牌"
+        vice_versa_to: 1016
+      1016:
+        cn: "运营"
+        desc: "品牌的运营公司或组织"
+        vice_versa_to: 1010
       1012:
         cn: "团体"
         desc: "公司下属的团体、企划，此项目用于与公司、组织关联"
+        vice_versa_to: 1017
+      1017:
+        cn: "经济公司"
+        desc: "团体的经济公司，如厂牌、经纪人公司、事务所等"
+        vice_versa_to: 1012
 
     character: &CHARACTER_RELATIONS
       2001:
@@ -73,11 +82,11 @@ define:
         cn: "朋友"
         desc: ""
       2006:
-        cn: "家人"
-        desc: "有血缘或法律关系的第一子代，如父母、兄弟姊妹等"
+        cn: "亲属"
+        desc: "因婚姻、血缘或收养而产生的具有特定身份和称谓的人际关系。亲属包括血亲、姻亲和养亲"
       2024:
         cn: "亲戚"
-        desc: "有血缘或法律关系的其他亲戚"
+        desc: "除亲属外的其他亲戚"
       2003:
         cn: "恋人"
         desc: "双方都已确认恋爱关系"
@@ -87,6 +96,7 @@ define:
       2005:
         cn: "对手"
         desc: ""
+
       2008:
         cn: "创始人"
         desc: "组织、偶像组合等团体的创始人"
@@ -96,20 +106,33 @@ define:
       2015:
         cn: "驾驶员"
         desc: "机体的驾驶员，如高达系列、EVA 系列等"
-        
+      
+      2027:
+        cn: "进化"
+        desc: "角色进化或升级后的形态。"
+        vice_versa_to: 2028
+      2028:
+        cn: "前身"
+        desc: "角色进化或升级前的形态。"
+        vice_versa_to: 2027
+
       2009:
         cn: "主人"
-        desc: "宠物/侍从的主人"
+        desc: "侍从的主人"
         skip_vice_versa: true
-        
-      2010:
-        cn: "宠物"
-        desc: "被主人所驯养的动物，如宝可梦、数码宝贝等"
-        vice_versa_to: 2009
       2016:
         cn: "侍从"
         desc: "主人的侍从，如女仆、管家等"
         vice_versa_to: 2009
+
+      2029:
+        cn: "饲主"
+        desc: "宠物的主人"
+        vice_versa_to: 2010
+      2010:
+        cn: "宠物"
+        desc: "被主人所驯养的动物，如宝可梦、数码宝贝等"
+        vice_versa_to: 2029
 
       2012:
         cn: "老师"
