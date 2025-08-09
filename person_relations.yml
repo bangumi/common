@@ -119,7 +119,7 @@ define:
       2009:
         cn: "主人"
         desc: "侍从的主人"
-        skip_vice_versa: true
+        vice_versa_to: 2016
       2016:
         cn: "侍从"
         desc: "主人的侍从，如女仆、管家等"
