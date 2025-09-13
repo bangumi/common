@@ -1,6 +1,7 @@
 define:
   type:
     person: &TYPE_PERSON 'prsn'
+    person_cv: &TYPE_PERSON_CV 'prsn_cv'
     character: &TYPE_CHARACTER 'crt'
 
   types:
@@ -42,12 +43,12 @@ define:
         desc: ""
       
       1009:
-        cn: "总公司"
-        desc: ""
+        cn: "主体事业"
+        desc: "从属事业的主体公司或组织"
         vice_versa_to: 1008
       1008:
-        cn: "分公司"
-        desc: ""
+        cn: "从属事业"
+        desc: "主体事业下属的公司或组织"
         vice_versa_to: 1009
       1010:
         cn: "品牌"
@@ -62,9 +63,29 @@ define:
         desc: "公司下属的团体、企划，此项目用于与公司、组织关联"
         vice_versa_to: 1017
       1017:
-        cn: "经济公司"
-        desc: "团体的经济公司，如厂牌、经纪人公司、事务所等"
+        cn: "经纪公司"
+        desc: "团体的经纪公司，如厂牌、经纪人公司、事务所等"
         vice_versa_to: 1012
+    person_cv: &PERSON_CV_RELATIONS
+      0:
+        cn: "CV"
+        desc: "作品首发时角色的原声"
+        primary: true
+      2:
+        cn: "演员"
+        desc: "三次元真人出演角色的演员"
+        primary: true
+      1:
+        cn: "译配"
+        desc: "译制配音，作品在其他地区发行时，角色的配音演员，吹き替え / Dubbing。如有具体语言，可选择下面的「中日英韩」配。"
+      3:
+        cn: "中配"
+      4:
+        cn: "日配"
+      5:
+        cn: "英配"
+      6:
+        cn: "韩配"
 
     character: &CHARACTER_RELATIONS
       2001:
@@ -177,6 +198,8 @@ define:
         cn: "其他"
         desc: ""
 
+
 relations:
   *TYPE_PERSON : *PERSON_RELATIONS
   *TYPE_CHARACTER : *CHARACTER_RELATIONS
+  *TYPE_PERSON_CV : *PERSON_CV_RELATIONS
