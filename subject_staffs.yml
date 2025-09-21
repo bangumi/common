@@ -380,6 +380,13 @@ define:
         categories:
           - *ANIME_DIRECTOR
           - *ANIME_PRODUCTION
+      137:
+        en: ""
+        cn: "动作导演"
+        jp: "アクション監督"
+        categories:
+          - *ANIME_DIRECTOR
+          - *ANIME_PRODUCTION
           
       18:
         en: "Supervision/Supervisor"
@@ -690,7 +697,7 @@ define:
       47:
         en: "Special Effects"
         cn: "特效"
-        jp: "視覚効果"
+        jp: "特殊効果"
         categories:
           - *ANIME_PRODUCTION
           - *ANIME_VISUAL
@@ -702,6 +709,13 @@ define:
         categories:
           - *ANIME_VISUAL
           - *ANIME_DIRECTOR
+
+      136:
+        en: "Visual Effects"
+        cn: "视觉效果"
+        jp: "ビジュアルエフェクト"
+        categories:
+          - *ANIME_VISUAL
 
       134:
         en: "Creative Supervisor/Director"
@@ -822,13 +836,6 @@ define:
         categories:
           - *ANIME_PRODUCER
 
-      126:
-        en: "Supervising Producer"
-        cn: "监制"
-        jp: "プロデュース"
-        categories:
-          - *ANIME_PRODUCER
-
       127:
         en: "Planning Cooperation"
         cn: "企画协力"
@@ -837,11 +844,10 @@ define:
           - *ANIME_PRODUCER
           - *ANIME_ASSISTANT
 
-
       80:
         en: "Supervising Producer"
         cn: "监制"
-        jp: ""
+        jp: "プロデュース"
         categories:
           - *ANIME_PRODUCER
       56:
@@ -1022,7 +1028,7 @@ define:
           - *GAME_ART
       1033:
         en: "Cover Art"
-        cn: "封绘"
+        cn: "海报"
         jp: "表紙"
         categories:
           - *GAME_ART
@@ -1229,64 +1235,16 @@ define:
 
     real: &REAL_STAFFS
       4001:
-        en: "creator"
+        en: "Creator"
         cn: "原作"
         jp: ""
       4002:
-        en: "director"
+        en: "Director"
         cn: "导演"
         jp: ""
-      4013:
-        en: "creative director"
-        cn: "创意总监"
-        jp: ""
       4003:
-        en: "writer"
+        en: "Writer"
         cn: "编剧"
-        jp: ""
-      4004:
-        en: "composer"
-        cn: "音乐"
-        jp: ""
-      4005:
-        en: "executive producer"
-        cn: "执行制片人"
-        jp: "製作総指揮"
-      4006:
-        en: "co exec"
-        cn: "共同执行制作"
-        jp: ""
-      4007:
-        en: "producer"
-        cn: "制片人/制作人"
-        jp: "プロデューサー"
-      4008:
-        en: "supervising producer"
-        cn: "监制"
-        jp: ""
-      4009:
-        en: "consulting producer"
-        cn: "副制作人/制作顾问"
-        jp: ""
-      4010:
-        en: "story"
-        cn: "故事"
-        jp: ""
-      4011:
-        en: "story editor"
-        cn: "编审"
-        jp: ""
-      4012:
-        en: "editor"
-        cn: "剪辑"
-        jp: ""
-      4014:
-        en: "cinematography"
-        cn: "摄影"
-        jp: ""
-      4015:
-        en: "Theme Song Performance"
-        cn: "主题歌演出"
         jp: ""
       4016:
         en: "Actor"
@@ -1295,6 +1253,66 @@ define:
       4017:
         en: "Supporting Actor"
         cn: "配角"
+        jp: ""
+      4013:
+        en: "Creative Director"
+        cn: "创意总监"
+        jp: ""
+      4004:
+        en: "Composer"
+        cn: "音乐"
+        jp: ""
+      4005:
+        en: "Executive Producer"
+        cn: "执行制片人"
+        jp: "製作総指揮"
+      4006:
+        en: "Co-Executive Producer"
+        cn: "共同执行制作"
+        jp: ""
+      4007:
+        en: "Producer"
+        cn: "制片人/制作人"
+        jp: "プロデューサー"
+      4008:
+        en: "Supervising Producer"
+        cn: "监制"
+        jp: ""
+      4009:
+        en: "Consulting Producer"
+        cn: "副制作人/制作顾问"
+        jp: ""
+      4010:
+        en: "Story"
+        cn: "故事"
+        jp: ""
+      4011:
+        en: "Story Editor"
+        cn: "编审"
+        jp: ""
+      4012:
+        en: "Editor"
+        cn: "剪辑"
+        jp: ""
+      4014:
+        en: "Cinematography"
+        cn: "摄影"
+        jp: ""
+      4020:
+        en: "ADR Director"
+        cn: "配音导演"
+        jp: ""
+      4021:
+        en: "Recording"
+        cn: "录音"
+        jp: "録音"
+      4015:
+        en: "Theme Song Performance"
+        cn: "主题歌演出"
+        jp: ""
+      4022:
+        en: "Poster"
+        cn: "海报"
         jp: ""
       4018:
         en: "Production"
