@@ -39,7 +39,7 @@ define:
         jp: ""
         categories:
           - *ANIME_DESIGN
-        
+
       74:
         en: "Chief Director"
         cn: "总导演"
@@ -136,7 +136,7 @@ define:
         jp: "劇中劇 コンテ・演出"
         categories:
           - *ANIME_DIRECTION
-          
+
       6:
         en: "Music"
         cn: "音乐"
@@ -387,7 +387,7 @@ define:
         categories:
           - *ANIME_DIRECTOR
           - *ANIME_PRODUCTION
-          
+
       18:
         en: "Supervision/Supervisor"
         cn: "监修"
@@ -497,7 +497,7 @@ define:
         jp: "Insert Song Arrangement"
         categories:
           - *ANIME_MUSIC
-          
+
       24:
         en: "Associate Producer"
         cn: "制作助理"
@@ -543,7 +543,7 @@ define:
         jp: "カラースクリプト"
         categories:
           - *ANIME_COLOR
-      
+
       27:
         en: "Digital Paint"
         cn: "数码绘图"
@@ -685,7 +685,7 @@ define:
         jp: "音響効果"
         categories:
           - *ANIME_MUSIC
-          
+
       88:
         en: "Special Effects Animation Direction"
         cn: "特效作画监督"
@@ -1420,13 +1420,21 @@ define:
         en: "Producer"
         cn: "制作人"
         jp: ""
+      3003:
+        en: "Composer"
+        cn: "作曲"
+        jp: ""
       3004:
         en: "Label"
         cn: "厂牌"
         jp: "レーベル"
-      3003:
-        en: "Composer"
-        cn: "作曲"
+      3015:
+        en: "Vocal"
+        cn: "歌唱"
+        jp: "ボーカル"
+      3019:
+        en: "Featured Artist/Featured Performers"
+        cn: "客串艺人"
         jp: ""
       3006:
         en: "Lyric"
@@ -1436,14 +1444,34 @@ define:
         en: "Arrange"
         cn: "编曲"
         jp: ""
+      3022:
+        en: "Chorus"
+        cn: "和声"
+        jp: "コーラス"
+      3021:
+        en: "Choir"
+        cn: "合唱"
+        jp: ""
+      3016:
+        en: "Narration"
+        cn: "念白"
+        jp: "ナレーション"
       3014:
         en: "Instrument"
         cn: "乐器"
         jp: ""
-      3015:
-        en: "Vocal"
-        cn: "声乐"
-        jp: ""
+      3017:
+        en: "Vocal Edit"
+        cn: "人声编辑"
+        jp: "ボーカルエディット"
+      3018:
+        en: "Vocal Direction"
+        cn: "人声指导"
+        jp: "ボーカルディレクション"
+      3020:
+        en: "Sound Director"
+        cn: "音响监督"
+        jp: "サウンドディレクション"
       3007:
         en: "Recording"
         cn: "录音"
@@ -1456,14 +1484,18 @@ define:
         en: "Mastering"
         cn: "母带制作"
         jp: ""
-      3009:
-        en: "Illustrator"
-        cn: "插图"
-        jp: ""
       3005:
         en: "Original Creator/Original Work"
         cn: "原作"
         jp: ""
+      3009:
+        en: "Illustrator"
+        cn: "插图"
+        jp: ""
+      3023:
+        en: "Design"
+        cn: "设计"
+        jp: "デザイン"
       3010:
         en: "Scenario"
         cn: "脚本"
