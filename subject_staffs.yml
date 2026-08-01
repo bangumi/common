@@ -56,7 +56,7 @@ define:
       72:
         en: "Assistant Director"
         cn: "副导演"
-        jp: "助監督 / 監督補佐"
+        jp: "助監督 / 監督補佐 / 監督助手"
         categories:
           - *ANIME_DIRECTOR
           - *ANIME_ASSISTANT
@@ -1157,6 +1157,118 @@ define:
         categories:
           - *ANIME_ASSISTANT
 
+      169:
+        en: "Assistant Editor"
+        cn: "剪辑助理"
+        jp: "編集助手"
+        categories:
+          - *ANIME_PRODUCTION
+          - *ANIME_ASSISTANT
+
+      170:
+        en: "Publicity Cooperation"
+        cn: "宣传协力"
+        jp: "宣伝協力"
+        categories:
+          - *ANIME_PRODUCTION
+          - *ANIME_ASSISTANT
+
+      171:
+        en: "Modeling"
+        cn: "建模/模型"
+        jp: "モデリング モデラー CGモデラー"
+        categories:
+          - *ANIME_DESIGN
+          - *ANIME_PRODUCTION
+
+      172:
+        en: "Look Development"
+        cn: "视觉开发/外观开发"
+        jp: "ルックデヴ ルックデベロップメント"
+        categories:
+          - *ANIME_DESIGN
+          - *ANIME_PRODUCTION
+          - *ANIME_VISUAL
+
+      173:
+        en: "Animation Director"
+        cn: "动画导演"
+        jp: "アニメーションディレクター"
+        categories:
+          - *ANIME_DIRECTOR
+          - *ANIME_ANIMATION
+
+      174:
+        en: "Distribution"
+        cn: "发行"
+        jp: "配給"
+        categories:
+          - *ANIME_PRODUCTION
+
+      175:
+        en: "Original Work Cooperation"
+        cn: "原作协力"
+        jp: "原作協力 原案協力"
+        categories:
+          - *ANIME_STORYBOARD
+          - *ANIME_ASSISTANT
+
+      176:
+        en: "Production Cooperation"
+        cn: "製作协力"
+        jp: "製作協力"
+        categories:
+          - *ANIME_PRODUCTION
+          - *ANIME_ASSISTANT
+
+      177:
+        en: "Production Supervisor"
+        cn: "製作统括"
+        jp: "製作統括"
+        categories:
+          - *ANIME_PRODUCER
+          - *ANIME_PRODUCTION
+
+      178:
+        en: "Production Administration"
+        cn: "制作事务"
+        jp: "制作事務"
+        categories:
+          - *ANIME_PRODUCTION
+
+      179:
+        en: "OP・ED Animation Production"
+        cn: "OP・ED 动画制作"
+        jp: "OP・ED アニメーション制作"
+        categories:
+          - *ANIME_PRODUCTION
+
+      180:
+        en: "Assistant 3DCG Director"
+        cn: "3DCG 导演助理"
+        jp: "3DCG 監督補佐"
+        categories:
+          - *ANIME_DIRECTOR
+          - *ANIME_PRODUCTION
+          - *ANIME_ASSISTANT
+
+      181:
+        en: "Assistant CG Director"
+        cn: "CG 导演助理"
+        jp: "CG 監督補佐"
+        categories:
+          - *ANIME_DIRECTOR
+          - *ANIME_PRODUCTION
+          - *ANIME_ASSISTANT
+
+      182:
+        en: "Production Producer"
+        cn: "制作制片人"
+        jp: "制作プロデューサー"
+        categories:
+          - *ANIME_PRODUCER
+          - *ANIME_PRODUCTION
+
     game: &GAME_STAFFS
       1001:
         en: "Developer"
@@ -1357,6 +1469,21 @@ define:
         categories:
           - *GAME_ASSISTANT
 
+      1034:
+        en: "User Interface"
+        cn: "UI"
+        jp: "UI"
+        categories:
+          - *GAME_DESIGN
+
+      1035:
+        en: "Voice Director"
+        cn: "配音导演"
+        jp: ""
+        categories:
+          - *GAME_DIRECTOR
+          - *GAME_MUSIC
+
     book: &BOOK_STAFFS
       2007:
         en: "Original Creator/Original Work"
@@ -1411,6 +1538,26 @@ define:
         cn: "图书品牌"
         jp: "ブランド"
 
+      2014:
+        en: "Compilation"
+        cn: "编著"
+        jp: "編纂 編"
+
+      2015:
+        en: "Composition"
+        cn: "构成"
+        jp: "構成"
+
+      2016:
+        en: "Supervision"
+        cn: "监修"
+        jp: "監修"
+
+      2017:
+        en: "Commentary"
+        cn: "解说"
+        jp: "解説"
+
     music: &MUSIC_STAFFS
       3001:
         en: "Artist"
@@ -1443,7 +1590,23 @@ define:
       3015:
         en: "Vocal"
         cn: "声乐"
+        jp: "ボーカル"
+      3019:
+        en: "Featured"
+        cn: "客串"
         jp: ""
+      3022:
+        en: "Chorus"
+        cn: "和声"
+        jp: "コーラス"
+      3021:
+        en: "Choir"
+        cn: "合唱"
+        jp: ""
+      3016:
+        en: "Narration"
+        cn: "念白/旁白"
+        jp: "ナレーション"
       3007:
         en: "Recording"
         cn: "录音"
@@ -1456,6 +1619,18 @@ define:
         en: "Mastering"
         cn: "母带制作"
         jp: ""
+      3017:
+        en: "Vocal Edit"
+        cn: "人声编辑"
+        jp: "ボーカルエディット"
+      3018:
+        en: "Vocal Direction"
+        cn: "人声指导"
+        jp: "ボーカルディレクション"
+      3020:
+        en: "Sound Director"
+        cn: "音响监督"
+        jp: "サウンドディレクション"
       3009:
         en: "Illustrator"
         cn: "插图"
@@ -1472,6 +1647,10 @@ define:
         en: "O.P."
         cn: "出版方"
         jp: "音楽出版社"
+      3023:
+        en: "Design"
+        cn: "设计"
+        jp: "デザイン"
 
     real: &REAL_STAFFS
       4001:
@@ -1561,6 +1740,116 @@ define:
       4019:
         en: "Present"
         cn: "出品"
+        jp: ""
+
+      4023:
+        en: "Planning"
+        cn: "企划/策划"
+        jp: "企画"
+
+      4024:
+        en: "Assistant Director"
+        cn: "副导演"
+        jp: "助監督"
+
+      4025:
+        en: "Art"
+        cn: "美术"
+        jp: "美術"
+
+      4026:
+        en: "Associate Producer"
+        cn: "联合制片人/副制片人"
+        jp: "アソシエイトプロデューサー"
+
+      4027:
+        en: "Action Director"
+        cn: "动作导演/武术指导"
+        jp: "アクション監督"
+
+      4028:
+        en: "Stunt Coordinator"
+        cn: "特技指导"
+        jp: ""
+
+      4029:
+        en: "Tokusatsu Director"
+        cn: "特摄导演"
+        jp: "特撮監督"
+
+      4030:
+        en: "Special Effects"
+        cn: "实拍特效"
+        jp: "SFX"
+
+      4031:
+        en: "Visual Effects"
+        cn: "视觉特效"
+        jp: "VFX"
+
+      4032:
+        en: "3DCG"
+        cn: "3DCG"
+        jp: ""
+
+      4033:
+        en: "Setting"
+        cn: "设定"
+        jp: "設定 デザインワークス"
+
+      4034:
+        en: "Character Design"
+        cn: "人物设计/皮套设计"
+        jp: "キャラクターデザイン"
+
+      4035:
+        en: "Character Modeling"
+        cn: "造型设计"
+        jp: "キャラクター造型製作"
+
+      4036:
+        en: "Creature Design"
+        cn: "生物设计"
+        jp: "クリーチャーデザイン"
+
+      4037:
+        en: "Monster Design"
+        cn: "怪兽设计"
+        jp: "怪獣デザイン"
+
+      4038:
+        en: "Production Company"
+        cn: "承制方/摄制"
+        jp: "制作プロダクション"
+
+      4039:
+        en: "Publicity"
+        cn: "宣传"
+        jp: "宣伝"
+
+      4040:
+        en: "Assistance"
+        cn: "协力"
+        jp: "協力"
+
+      4041:
+        en: "Special Thanks"
+        cn: "特别鸣谢"
+        jp: ""
+
+      4042:
+        en: "Sound Director"
+        cn: "音响监督"
+        jp: ""
+
+      4043:
+        en: "Post-Production Editor"
+        cn: "后期"
+        jp: ""
+
+      4044:
+        en: "Distribution"
+        cn: "发行"
         jp: "配給"
 
 staffs:
