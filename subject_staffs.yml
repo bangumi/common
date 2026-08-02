@@ -1717,6 +1717,14 @@ define:
         en: "Cinematography"
         cn: "摄影"
         jp: ""
+      4023:
+        en: "Lighting"
+        cn: "照明"
+        jp: ""
+      4024:
+        en: "Styling"
+        cn: "造型"
+        jp: ""
       4020:
         en: "ADR Director"
         cn: "配音导演"
