@@ -1558,6 +1558,26 @@ define:
         cn: "解说"
         jp: "解説"
 
+      2018:
+        en: "model"
+        cn: "模特"
+        jp: "モデル"
+      
+      2019:
+        en: ""
+        cn: "协力"
+        jp: "協力"
+
+      2020:
+        en: "Narrated By"
+        cn: "朗读"
+        jp: "朗読/ナレーター"
+
+      2021:
+        en: ""
+        cn: "制作"
+        jp: "制作"
+        
     music: &MUSIC_STAFFS
       3001:
         en: "Artist"
